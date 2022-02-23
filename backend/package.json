@@ -1,22 +1,30 @@
 {
-  "name": "TempProject",
-  "version": "1.0.0",
-  "main": "index.js",
-  "author": "ShinJongHwan",
-  "license": "MIT",
-  "dependencies": {
-    "next": "^12.1.0",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
-  },
-  "scripts": {
-    "dev": "next",
-    "build": "next build",
-    "start": "next start"
-  },
-  "devDependencies": {
-    "@types/node": "^17.0.20",
-    "@types/react": "^17.0.39",
-    "typescript": "^4.5.5"
-  }
+    "name": "TempProject",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": "ShinJongHwan",
+    "license": "MIT",
+    "dependencies": {
+        "eslint-plugin-react": "^7.28.0",
+        "next": "^12.1.0",
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2"
+    },
+    "scripts": {
+        "dev": "next",
+        "build": "next build",
+        "start": "next start",
+        "lint": "tsc --noEmit && eslint '*/**/*.{js,ts,tsx}' --quiet --fix"
+    },
+    "devDependencies": {
+        "@types/node": "^17.0.20",
+        "@types/react": "^17.0.39",
+        "@typescript-eslint/eslint-plugin": "^5.12.1",
+        "@typescript-eslint/parser": "^5.12.1",
+        "eslint": "^8.9.0",
+        "eslint-config-prettier": "^8.4.0",
+        "eslint-plugin-prettier": "^4.0.0",
+        "prettier": "^2.5.1",
+        "typescript": "^4.5.5"
+    }
 }

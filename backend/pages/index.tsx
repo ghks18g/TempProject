@@ -3,9 +3,8 @@
  * @module pages
  */
 
-function Start(){
-
-    return <div>Welcome to start page.</div>
+function Start() {
+    return <div>Welcome to start page.</div>;
 }
 
 export default Start;
